@@ -3,7 +3,7 @@ const _resolve = path.resolve;
 const utilsPath = _resolve(__dirname, 'src/utils');
 
 var entries = {
-  jsbridge: _resolve(utilsPath, 'jsbridge.js'),
+  jsbridge: _resolve(utilsPath, 'jsbridge.ts'),
 };
 
 module.exports = {

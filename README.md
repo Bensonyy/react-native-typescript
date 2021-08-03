@@ -1,4 +1,4 @@
-# App 打包
+# App 打包以安卓平台为例
 
 - yarn android 本地开发
 - android-test 内网测试包
@@ -26,13 +26,13 @@
 
 ### 如何增加一个业务页面
 
-- 在 pages 目录新建页面 js, 如: pages/home/Home.js
-- 页面 js 需包含以下基本结构：
+- 在 screens 目录新建页面, 如: screens/my/My.tsx
+- 页面 tsx 文件需包含以下基本结构：
 
 ```
-import React from 'react';
+import * as React from 'react';
 import { View, Text } from 'react-native';
-import { Content } from '../../components';
+import { Text, View, Content } from '../../components';
 
 export default function Demo() {
   return (
@@ -45,7 +45,7 @@ export default function Demo() {
 }
 
 // Content 是封装好的主内容区布局组件，这个组件的设计主要负责处理所有页面共用逻辑及平台兼容性问题，目前已集成 SafeAreaView, ScrollView 功能;
-// Content 的 props 支持传 type , 如：<Content type="full" /> 表示主内容区占满手机屏幕, 不传默认是有间距的
+// Content 的 props 支持传自定义属性
 ```
 
 # 关于 webview 中 APP 与 H5 通信
@@ -77,7 +77,7 @@ window.AppJSBridgeOnReady = function() {
 <BtnCom title="确认支付" onPress={onPay} />
 ```
 
-### JSX 虚拟 DOM 结构以 render 开头，如：
+### JSX 虚拟 DOM 结构分拆以 render 开头，如：
 
 ```
 const renderForm = () => {

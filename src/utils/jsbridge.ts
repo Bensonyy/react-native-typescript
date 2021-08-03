@@ -1,6 +1,6 @@
 function fn(window) {
   const f = () => {};
-  function JSBridge(params) {
+  function JSBridge() {
     this.callbacks = {};
   }
 
