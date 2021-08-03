@@ -1,0 +1,84 @@
+{
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "5.11.2",
+    "@react-navigation/elements": "^1.0.0",
+    "@react-navigation/native": "~5.8.10",
+    "@react-navigation/stack": "~5.12.8",
+    "expo": "~42.0.0",
+    "expo-asset": "~8.3.2",
+    "expo-constants": "~11.0.1",
+    "expo-font": "~9.2.1",
+    "expo-linking": "~2.3.1",
+    "expo-splash-screen": "~0.11.2",
+    "expo-status-bar": "~1.0.4",
+    "expo-updates": "~0.8.1",
+    "expo-web-browser": "~9.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-native-config": "^1.4.3",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-root-siblings": "^4.1.1",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-unimodules": "~0.14.5",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "git-cz": "^4.7.6",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.1",
+    "prettier": "^2.3.2",
+    "ts-loader": "^9.2.3",
+    "typescript": "~4.0.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "android-test": "ENVFILE=.env.test npx react-native run-android --variant=release",
+    "android-prod": "ENVFILE=.env.prod npx react-native run-android --variant=release",
+    "adrr": "ENVFILE=.env.prod cd android && ./gradlew assembleRelease",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "jsb": "webpack --mode=production --config webpack.config.jsb",
+    "precommit": "lint-staged",
+    "commit": "git-cz",
+    "ct": "git add . && git-cz",
+    "bundleSize": "npx react-native-bundle-visualizer --expo managed"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,less}": [
+      "prettier --write",
+      "tsc --noEmit && eslint --ext .tsx,.ts --fix",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  },
+  "private": true,
+  "name": "create-rn-ts",
+  "author": "Benson",
+  "email": "Benson.xyzz@qq.com",
+  "version": "1.0.0"
+}
