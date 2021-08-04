@@ -3,7 +3,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 const prefix = '@myapp:';
 
 export default class Store {
-  static async get(k) {
+  static async get(k: string | string[]) {
     try {
       if (typeof k === 'string') {
         const value = await AsyncStorage.getItem(`${prefix}${k}`);
@@ -25,7 +25,7 @@ export default class Store {
     }
   }
 
-  static async set(k, value) {
+  static async set(k: string | object, value?: string | object) {
     try {
       if (typeof k === 'string') {
         if (typeof value === 'object') {
@@ -38,19 +38,15 @@ export default class Store {
 
       const kvs = Object.keys(k).reduce((kvs, key) => [...kvs, [`${prefix}${key}`, k[key]]], []);
 
-      const errors = await AsyncStorage.multiSet(kvs);
-
-      return errors || k;
+      await AsyncStorage.multiSet(kvs);
+      return k;
     } catch (error) {
       console.error(error, 'store set');
     }
   }
 
-  // mergeItem，用于两个对象的字段合并
-  static async merge(k, value) {
-    if (typeof value !== 'object') {
-      throw new Error(`value type is not object ${k}`);
-    }
+  // mergeItem 用于向缓存中的对象插入新值
+  static async merge(k: string, value: object) {
     try {
       const _value = await Store.get(k);
       if (_value) {
@@ -68,10 +64,7 @@ export default class Store {
   }
 
   // 为已缓存的数组前面插入数据, value 是数组[]
-  static async insert(k, value = []) {
-    if (!Array.isArray(value)) {
-      throw new Error(`the second parameter is no array ${value}`);
-    }
+  static async insert(k: string, value: any[] = []) {
     try {
       const _value = (await Store.get(k)) || [];
       if (Array.isArray(_value)) {
@@ -87,10 +80,7 @@ export default class Store {
   }
 
   // 为已缓存的数组更新某一条数据
-  static async update(k, value) {
-    if (typeof value !== 'object') {
-      throw new Error('value is not object');
-    }
+  static async update(k: string, value: { id: string | number; [key: string]: any }) {
     try {
       const _value = await Store.get(k);
       if (Array.isArray(_value)) {
@@ -108,7 +98,7 @@ export default class Store {
     }
   }
 
-  static async remove(k) {
+  static async remove(k: string | string[]) {
     try {
       if (typeof k === 'string') {
         await AsyncStorage.removeItem(`${prefix}${k}`);

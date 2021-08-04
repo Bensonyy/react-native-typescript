@@ -1,6 +1,6 @@
 import { Alert } from 'react-native';
-import Constants from 'expo-constants';
 import { stringify } from 'qs';
+import { getUniqueId } from 'react-native-device-info';
 import Store from './store';
 import EE from './eventEmit';
 import { config } from '../config';
@@ -12,7 +12,7 @@ const json = 'application/json';
 let cacheToken = null;
 let cacheExpireTime = null;
 
-const deviceId = Constants.deviceId;
+const deviceId = getUniqueId();
 
 const statusMessage = {
   200: '服务器成功返回请求的数据。',
@@ -50,7 +50,6 @@ function checkStatus(response) {
   }
   const error = new Error(errortext);
   error.name = response.status;
-  error.response = response;
   throw error;
 }
 
@@ -82,14 +81,23 @@ EE.on('signIn', function ({ token, expireTime } = {}) {
   cacheExpireTime = expireTime;
 });
 
+type params = {
+  url: string;
+  method?: string;
+  data?: any;
+  isJSON?: boolean;
+  headers?: object;
+  apiUrl?: string;
+};
+
 const request = async ({
   url,
   data,
   method = 'GET',
   isJSON = true,
-  headers,
+  headers = {},
   apiUrl = apiUrlConfig,
-} = {}) => {
+}: params): Promise<any> => {
   const [path, query] = url.split('?');
 
   if (!cacheToken) {

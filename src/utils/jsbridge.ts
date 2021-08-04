@@ -12,7 +12,7 @@ function fn(window) {
      * @param {params 可选} 向 RN 传递参数
      * @param {callback} RN web 端的回调
      */
-    callNative(type, params = null, callback = f) {
+    callNative(type: string, params: any = null, callback = f) {
       const paramsIsFn = typeof params === 'function';
       if (paramsIsFn) {
         callback = params;

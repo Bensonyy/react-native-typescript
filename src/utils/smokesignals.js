@@ -50,11 +50,7 @@ var smokesignals = {
       // we can remove it
       //      it would be more efficient to stash the length and compare i
       //      to that, but that is longer so we'll go with this.
-      for (
-        var list = handlers[eventName], i = 0;
-        handler && list && list[i];
-        i++
-      ) {
+      for (var list = handlers[eventName], i = 0; handler && list && list[i]; i++) {
         // either this item is the handler passed in, or this item is a
         // wrapper for the handler passed in.  See the 'once' function
         (list[i] != handler && list[i].h != handler) ||

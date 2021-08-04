@@ -1,6 +1,6 @@
 import ReconnectingWebSocket from 'reconnecting-websocket';
-import Constants from 'expo-constants';
 import RNConfig from 'react-native-config';
+import { getUniqueId } from 'react-native-device-info';
 import EE from './eventEmit';
 const { WSAPI_URl } = RNConfig;
 
@@ -32,7 +32,7 @@ code	说明
 3500	站内信消息
 */
 
-const deviceId = Constants.deviceId;
+const deviceId = getUniqueId();
 
 const options = {
   // connectionTimeout: 3000,
@@ -52,7 +52,7 @@ const ws = ({ token }) => {
   const rws = new ReconnectingWebSocket(
     `${WSAPI_URl}/imws-service/im/${userType}/${token}/${deviceId}`,
     [],
-    options
+    options,
   );
 
   // 连接成功每隔 1 分钟进行心跳检测
@@ -85,8 +85,10 @@ const ws = ({ token }) => {
   const send = (data) => {
     if (typeof data === 'string') {
       rws.send(data);
-    } else {
+    } else if (typeof data === 'object') {
       rws.send(JSON.stringify(data));
+    } else {
+      rws.send(data);
     }
   };
   const close = () => rws.close();

@@ -1,7 +1,7 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 export const config = {
-  name: 'create-rn-app', // 项目名称
+  name: 'create-rn-ts', // 项目名称
   aesKey: '4xITplHmgQezu630', // 加密密钥
   privateKey:
     'MOoL41B2PfLqzbFvsNHc0RE8t7uEIoeeryQDCTEs0pULXsCnUss87Qa7DnpyCvbMRHcqCEAnqF4S7wMJgHfWMVZMOTVWyNdvD6a7aNb5ZZba0sUtoqoBgCfrSXPXUZ0d',

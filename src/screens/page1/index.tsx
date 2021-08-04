@@ -1,9 +1,13 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { useBottomTabBarHeight } from '@react-navigation/bottom-tabs';
+import { getUniqueId } from 'react-native-device-info';
 import { Text, View } from '../../components';
 
 export default function Page1() {
+  React.useEffect(() => {
+    return () => {};
+  }, []);
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>首页</Text>
