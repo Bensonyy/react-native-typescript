@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { getUniqueId } from 'react-native-device-info';
+import { Button } from 'react-native-elements';
 import { Text, View } from '../../components';
 
 export default function Page1() {

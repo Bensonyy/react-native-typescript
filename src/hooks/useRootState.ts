@@ -45,5 +45,5 @@ export default function useRootState() {
     [],
   );
 
-  return { themeName, ...userInfo, dispatch };
+  return { themeName, ...userInfo, ...fns, dispatch };
 }
