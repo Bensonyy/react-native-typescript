@@ -52,7 +52,6 @@
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
-    "android2": "react-native run-android --variant=release",
     "android-test": "ENVFILE=.env.test npx react-native run-android --variant=release",
     "android-prod": "ENVFILE=.env.prod npx react-native run-android --variant=release",
     "adrr": "ENVFILE=.env.prod cd android && ./gradlew assembleRelease",
