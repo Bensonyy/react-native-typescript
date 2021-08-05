@@ -1,3 +1,5 @@
+import ROOT_CONST from './rootConst';
+
 // 颜色相关配置
 const tintColorLight = '#2f95dc';
 const tintColorDark = '#fff';
@@ -22,3 +24,5 @@ export const Colors = {
 //间距和高度
 export const contentSpace = 16; //内容距离屏幕边缘
 export const widgetSpace = 10; //组件之间距离
+
+export { ROOT_CONST };

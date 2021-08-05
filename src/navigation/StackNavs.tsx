@@ -6,17 +6,17 @@ import { StackNavsConfig } from './NavConfig';
 
 const Stack = createStackNavigator();
 
-export default function RootNavigator() {
+export default function StackNavs({ themeName }: { themeName: string }) {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
-      <Stack.Screen name="Root" component={BottomTabNavs} />
+      <Stack.Screen name="Root">{() => <BottomTabNavs themeName={themeName} />}</Stack.Screen>
       {StackNavsConfig.map(({ name, component, options }) => {
         return (
           <Stack.Screen
             key={name}
             name={name}
-            getComponent={component}
-            options={({ route }) => ({
+            getComponent={() => component}
+            options={({ route }: { route: any }) => ({
               ...options,
               title: route.params?.title || options.title,
             })}

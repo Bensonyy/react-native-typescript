@@ -1,7 +1,9 @@
 {
+  "name": "creaternts",
+  "displayName": "creaternts",
   "expo": {
     "name": "creaternts",
-    "slug": "expo-template-tabs",
+    "slug": "creaternts",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,9 +17,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.rntsyb"
@@ -31,6 +31,7 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "entryPoint": "App.tsx"
   }
 }

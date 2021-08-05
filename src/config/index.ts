@@ -14,3 +14,6 @@ export const swrOptions = {
   errorRetryCount: isProd ? 5 : 0,
   refreshInterval: isProd ? 3000 : 0,
 };
+
+export const ampWebKey = '10598c876777f3949c7ae4e5bf145942';
+export const ampAndroidKey = '3f3ca6cd51a52122c17e587c202409b6';

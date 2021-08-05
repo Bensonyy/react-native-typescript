@@ -1,18 +1,15 @@
 import * as React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Colors } from '../constants';
-import { useColorScheme } from '../hooks/useColorScheme';
 import { BottomTabNavsConfig } from './NavConfig';
 
 const BottomTab = createBottomTabNavigator();
 
-export default function BottomTabNavigator() {
-  const colorScheme = useColorScheme();
-
+export default function BottomTabNavs({ themeName }: { themeName: string }) {
   return (
     <BottomTab.Navigator
       initialRouteName="Page1"
-      tabBarOptions={{ activeTintColor: Colors[colorScheme].tint }}>
+      tabBarOptions={{ activeTintColor: Colors[themeName].tint }}>
       {BottomTabNavsConfig.map((item) => (
         <BottomTab.Screen
           key={item.name}

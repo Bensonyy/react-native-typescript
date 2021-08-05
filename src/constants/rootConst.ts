@@ -1,0 +1,6 @@
+export default {
+  SIGN_OUT: 'SIGN_OUT',
+  SIGN_IN: 'SIGN_IN',
+  RESTORE_TOKEN: 'RESTORE_TOKEN',
+  GET_LOGIN_INFO: 'GET_LOGIN_INFO',
+};

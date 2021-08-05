@@ -3,7 +3,6 @@ import { stringify } from 'qs';
 import { getUniqueId } from 'react-native-device-info';
 import Store from './store';
 import EE from './eventEmit';
-import { config } from '../config';
 import RNConfig from 'react-native-config';
 
 const { API_URL: apiUrlConfig } = RNConfig;

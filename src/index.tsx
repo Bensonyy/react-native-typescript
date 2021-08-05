@@ -2,16 +2,21 @@ import * as React from 'react';
 import { StyleSheet } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { useColorScheme } from './hooks/useColorScheme';
+
 import Navigation from './navigation';
+import { RootContext } from './components';
+import { useRootState } from './hooks';
 
 export default function Main() {
-  const colorScheme = useColorScheme();
+  const { themeName, ...rootProps } = useRootState();
+
   return (
-    <SafeAreaProvider>
-      <Navigation colorScheme={colorScheme} />
-      <StatusBar translucent={true} style="auto" />
-    </SafeAreaProvider>
+    <RootContext.Provider value={{ themeName, ...rootProps }}>
+      <SafeAreaProvider>
+        <Navigation themeName={themeName} />
+        <StatusBar translucent={true} style="auto" />
+      </SafeAreaProvider>
+    </RootContext.Provider>
   );
 }
 

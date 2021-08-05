@@ -1,0 +1,1490 @@
+--------- beginning of crash
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: Process: com.rntsyb, PID: 18371
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:26:49.619 18371 18371 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: Process: com.rntsyb, PID: 18422
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:26:51.096 18422 18422 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: Process: com.rntsyb, PID: 18462
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:26:52.393 18462 18462 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: Process: com.rntsyb, PID: 18499
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:26:53.526 18499 18499 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: Process: com.rntsyb, PID: 18653
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:27:12.184 18653 18653 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: Process: com.rntsyb, PID: 18739
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:27:13.847 18739 18739 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: Process: com.rntsyb, PID: 18798
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:28:48.834 18798 18798 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: Process: com.rntsyb, PID: 18852
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:28:49.844 18852 18852 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: Process: com.rntsyb, PID: 18934
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:28:51.890 18934 18934 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: Process: com.rntsyb, PID: 19154
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:28:52.854 19154 19154 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: Process: com.rntsyb, PID: 19246
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:28:53.793 19246 19246 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: Process: com.rntsyb, PID: 19280
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:28:54.697 19280 19280 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: Process: com.rntsyb, PID: 19933
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:29:47.232 19933 19933 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: Process: com.rntsyb, PID: 19971
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:29:48.671 19971 19971 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: Process: com.rntsyb, PID: 20004
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:29:49.794 20004 20004 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: Process: com.rntsyb, PID: 20078
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:29:51.869 20078 20078 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: Process: com.navDemo, PID: 21892
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:09.178 21892 21892 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: Process: com.navDemo, PID: 21938
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:10.569 21938 21938 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: Process: com.navDemo, PID: 21972
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:13.181 21972 21972 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: Process: com.navDemo, PID: 22017
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:14.238 22017 22017 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: Process: com.navDemo, PID: 22053
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:15.150 22053 22053 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: Process: com.navDemo, PID: 22089
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:16.048 22089 22089 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: Process: com.navDemo, PID: 22125
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:20.190 22125 22125 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: Process: com.navDemo, PID: 22160
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:21.074 22160 22160 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: Process: com.navDemo, PID: 22202
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:21.962 22202 22202 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: Process: com.navDemo, PID: 22237
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:23.186 22237 22237 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: Process: com.navDemo, PID: 22272
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:24.043 22272 22272 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: Process: com.navDemo, PID: 22306
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:24.947 22306 22306 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: Process: com.navDemo, PID: 22337
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:25.836 22337 22337 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: Process: com.navDemo, PID: 22369
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:26.774 22369 22369 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: Process: com.navDemo, PID: 22400
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at com.navDemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 16:41:27.673 22400 22400 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+--------- beginning of system
+08-05 17:06:30.570  2623  3325 I NetworkQoeChr: checkForegroundApp timer end
+08-05 17:06:30.788  2623  3325 I NetworkQoeChr: checkForegroundApp timer end
+08-05 17:06:30.976  2623  3325 I NetworkQoeChr: checkForegroundApp timer end
+08-05 17:06:31.053  2623  3325 I NetworkQoeChr: checkForegroundApp timer start
+08-05 17:06:40.977  2623  3325 I PerformanceModeManager: exit timer start
+08-05 17:06:48.090 31064 31064 E LoadedApk: Unable to instantiate appComponentFactory
+08-05 17:06:48.090 31064 31064 E LoadedApk: java.lang.ClassNotFoundException: Didn't find class "androidx.core.app.CoreComponentFactory" on path: DexPathList[[zip file "/data/app/com.huawei.hwid-Q5A7u5pjYhB83ttJ7PVTsA==/base.apk"],nativeLibraryDirectories=[/data/app/com.huawei.hwid-Q5A7u5pjYhB83ttJ7PVTsA==/lib/arm64, /data/app/com.huawei.hwid-Q5A7u5pjYhB83ttJ7PVTsA==/base.apk!/lib/arm64-v8a, /system/lib64, /hw_product/lib64, /system/product/lib64]]
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:209)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.LoadedApk.createAppFactory(LoadedApk.java:270)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1000)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1124)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.LoadedApk.getResources(LoadedApk.java:1414)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2656)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2644)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7452)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:06:48.090 31064 31064 E LoadedApk: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:12.833  2623  3325 I NetworkQoeChr: checkForegroundApp timer end
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: Process: com.tsdemo, PID: 31965
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:22.599 31965 31965 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: Process: com.tsdemo, PID: 32052
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:23.963 32052 32052 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:24.025  2623  3325 I NetworkQoeChr: checkForegroundApp timer start
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: Process: com.tsdemo, PID: 32098
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:25.392 32098 32098 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: Process: com.tsdemo, PID: 32132
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:26.383 32132 32132 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: Process: com.tsdemo, PID: 32171
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:27.325 32171 32171 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: Process: com.tsdemo, PID: 32201
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:28.190 32201 32201 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: Process: com.tsdemo, PID: 32232
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:29.083 32232 32232 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: Process: com.tsdemo, PID: 32286
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:36.664 32286 32286 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: Process: com.tsdemo, PID: 32320
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:37.563 32320 32320 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: Process: com.tsdemo, PID: 32352
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:09:38.420 32352 32352 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: Process: com.tsdemo, PID: 32527
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:10:47.772 32527 32527 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: Process: com.tsdemo, PID: 32569
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:10:48.759 32569 32569 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: Process: com.tsdemo, PID: 32602
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:10:50.339 32602 32602 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: Process: com.tsdemo, PID: 32635
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:10:51.402 32635 32635 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: Process: com.tsdemo, PID: 32668
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at com.tsdemo.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:10:52.476 32668 32668 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:17:49.074  2623  3325 I NetworkQoeChr: checkForegroundApp timer end
+08-05 17:17:49.125  2623  3325 I NetworkQoeChr: checkForegroundApp timer end
+08-05 17:17:49.143  1270  1270 E LoadedApk: Unable to instantiate appComponentFactory
+08-05 17:17:49.143  1270  1270 E LoadedApk: java.lang.ClassNotFoundException: Didn't find class "androidx.core.app.CoreComponentFactory" on path: DexPathList[[zip file "/data/app/com.huawei.android.tips-g_MVZwO2S_FQYqzn--7-VA==/base.apk", zip file "/data/app/com.huawei.android.tips-g_MVZwO2S_FQYqzn--7-VA==/split_fa_widget.apk"],nativeLibraryDirectories=[/data/app/com.huawei.android.tips-g_MVZwO2S_FQYqzn--7-VA==/lib/arm64, /system/lib64, /hw_product/lib64, /system/product/lib64, /system/lib64, /hw_product/lib64, /system/product/lib64]]
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:209)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.LoadedApk.createAppFactory(LoadedApk.java:270)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.LoadedApk.createOrUpdateClassLoaderLocked(LoadedApk.java:1000)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.LoadedApk.getClassLoader(LoadedApk.java:1124)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.LoadedApk.getResources(LoadedApk.java:1414)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2656)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.ContextImpl.createAppContext(ContextImpl.java:2644)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7452)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:17:49.143  1270  1270 E LoadedApk: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:17:54.324  2623  3325 I NetworkQoeChr: checkForegroundApp timer start
+08-05 17:20:48.481  2623  3325 I NetworkQoeChr: checkForegroundApp timer end
+08-05 17:20:48.533  2623  3325 I NetworkQoeChr: checkForegroundApp timer end
+--------- beginning of main
+08-05 17:23:24.362  4763  2386 W CAWARENESS_LifecycleCompatibleFence: timestamp is invalid
+08-05 17:23:24.424 10432 12696 I ImeNamedRunnable: Thread pool-6-thread-1, Runnable named igsm::onStartInput, use time 0ms
+08-05 17:23:24.424 10432 12699 I ImeNamedRunnable: Thread pool-1-thread-1, Runnable named iinputm::onStartInput, use time 0ms
+08-05 17:23:24.432  2709  2406 I HiAdKit.DC.AIDCP:  addAppDataCollectionToCache - cache valide time: 7200 expireTime: 1627723404431
+08-05 17:23:24.746 10827  2645 I mars::stn: [longlink_connect_monitor.cc, __LongLinkStateToSystemLog, 119]:longlink_progress longlink state: connecting time: 5188143
+08-05 17:23:24.931  2759  2759 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:23:24.952   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:24.952   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:24.998 10827  2645 I mars::stn: [longlink_connect_monitor.cc, __LongLinkStateToSystemLog, 119]:longlink_progress longlink state: connected time: 5188395
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: Process: com.rntsyb, PID: 2759
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:23:25.012  2759  2759 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:23:25.036 10827  2699 I mars::stn: [longlink_connect_monitor.cc, OnHeartbeatAlarmSet, 470]:longlink_progress on_heartbeat_set, time: 5188433, time interval:210000
+08-05 17:23:25.059   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:25.059   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:25.069 10827  2699 I mars::stn: [longlink_connect_monitor.cc, OnHeartbeatAlarmSet, 470]:longlink_progress on_heartbeat_set, time: 5188466, time interval:210000
+08-05 17:23:25.103  9249  2712 D QVS_SDK_TAG: [214878109]Scan consume time 310ms from callerId 622
+08-05 17:23:29.363  2709  2415 I HiAdKit.DC.ADCP:  addAppDataCollectionToCache - cache valide time: 7200 expireTime: 1627723409363
+08-05 17:23:29.849  4763  2489 W CAWARENESS_LifecycleCompatibleFence: timestamp is invalid
+08-05 17:23:29.863  7499  7499 I HwViewRootImpl: removeInvalidNode all the node in jank list is out of time
+08-05 17:23:29.879  4565  5998 I HiDecision: RuleEngineSession: fire cost time = 0
+08-05 17:23:29.894  2894  2894 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:23:29.887  2894  2894 W com.rntsyb: type=1400 audit(0.0:4500): avc: denied { read } for pid=2894 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=11793 scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+08-05 17:23:29.910   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:29.910   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: Process: com.rntsyb, PID: 2894
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:23:29.944  2894  2894 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:23:29.985   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:29.985   911  2185 I aptouch_daemon: request_lock_timed, + LockStatus 0x00000021
+08-05 17:23:29.985   911  2185 I aptouch_daemon: request_lock_timed, -, 0ms, 0
+08-05 17:23:29.985   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:30.008  2623  3325 I NetworkQoeChr: checkForegroundApp timer start
+08-05 17:23:30.023  5627  5627 I HwViewRootImpl: removeInvalidNode all the node in jank list is out of time
+08-05 17:23:30.032  2693  2693 I HwViewRootImpl: removeInvalidNode all the node in jank list is out of time
+08-05 17:23:30.043 10432 12699 I ImeNamedRunnable: Thread pool-1-thread-1, Runnable named iinputm::onStartInput, use time 0ms
+08-05 17:23:30.043 10432 12696 I ImeNamedRunnable: Thread pool-6-thread-1, Runnable named igsm::onStartInput, use time 1ms
+08-05 17:23:31.449  2954  2954 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:23:31.443  2954  2954 W com.rntsyb: type=1400 audit(0.0:4501): avc: denied { read } for pid=2954 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=11793 scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+08-05 17:23:31.503   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:31.504   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: Process: com.rntsyb, PID: 2954
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:23:31.531  2954  2954 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:23:31.548   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:31.548   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:31.557  2693  3032 I HwLauncher: GestureUtil MOTION_NOTIFICATION app_start_animation sendBroadcast extra= duration: 400 category: app_start_animation timestamp: 1628155411534
+08-05 17:23:32.463  3036  3036 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:23:32.459  3036  3036 W com.rntsyb: type=1400 audit(0.0:4502): avc: denied { read } for pid=3036 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=11793 scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+08-05 17:23:32.534   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:32.535   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:32.551  2693  3012 I HwLauncher: GestureUtil MOTION_NOTIFICATION app_start_animation sendBroadcast extra= duration: 400 category: app_start_animation timestamp: 1628155412542
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: Process: com.rntsyb, PID: 3036
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:23:32.561  3036  3036 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:23:32.610   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:32.610   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:33.405  3083  3083 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:23:33.399  3083  3083 W com.rntsyb: type=1400 audit(0.0:4503): avc: denied { read } for pid=3083 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=11793 scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+08-05 17:23:33.459   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:33.459   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:33.474  2693  3010 I HwLauncher: GestureUtil MOTION_NOTIFICATION app_start_animation sendBroadcast extra= duration: 400 category: app_start_animation timestamp: 1628155413467
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: Process: com.rntsyb, PID: 3083
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:23:33.488  3083  3083 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:23:33.503   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:23:33.503   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:23:45.753  4409  4644 I PushLog110106300: [ReceiverDispatcher-195]com.huawei.push.alarm.HEARTBEAT alarm trigger, expectTriggerTime:1628155425740, current trigger time:1628155425753
+08-05 17:23:45.767  4409  4644 I PushLog110106300: [ReceiverDispatcher-195]next Heartbeat timeout for push server is: 5 min , curHeartBeatInterval: 300000
+08-05 17:23:54.454  2830  3198 E SQLiteDatabase: Error inserting UNIQUE constraint failed: SmartControlRecordTable.packageName, SmartControlRecordTable.callerPackageName, SmartControlRecordTable.startupResult, SmartControlRecordTable.timeOfDay (Sqlite code 2067 SQLITE_CONSTRAINT_UNIQUE), (OS error - 2:No such file or directory)
+08-05 17:24:06.589 23976 24065 I PrintWorker: PrintWoker poll timeout , shutdown
+08-05 17:24:10.019  1073  1132 I SensorHub: in Batch, handle = 0, flags = 0, periodNs = 50000000, timeout = 0
+08-05 17:24:10.024  1073  1073 I SensorHub: in Batch, handle = 5, flags = 0, periodNs = 50000000, timeout = 0
+08-05 17:24:10.029  1073  1073 I SensorHub: in Batch, handle = 1, flags = 0, periodNs = 50000000, timeout = 0
+08-05 17:24:16.467  1073  1132 I SensorHub: in Batch, handle = 0, flags = 0, periodNs = 66667000, timeout = 0
+08-05 17:24:16.474  2659  3264 I SensorState: sensor stop, total history time:1916346
+08-05 17:24:24.344  2709  3297 I FwKamsCompat: wait for ams time out for 60000 ms
+08-05 17:24:30.087 10432 12699 I ImeNamedRunnable: Thread pool-1-thread-1, Runnable named iinputm::wordsInstallTask, use time 1ms
+08-05 17:25:05.135  1035  1657 I maple   :  NaiveRC GC for force: sync: collected objects: 0(0B), 90.7536% utilization (3MiB/3MiB), max pause: 256us, total pause: 348us, total GC time: 39ms
+08-05 17:25:16.636  4763  5531 I CAWARENESS_MsdpMotionParser: parseMsdpEvent count: 1 state: MsdpMotionTransportState{abilityType=still, eventType=exit, timestampNs=5298514206951, confidence=0, extra=}
+08-05 17:25:16.645  2554  5280 I OPCollectLog: ARFromAwarenessImpl:motionType: 4 eventType: 2 timeStamp: 5298514206951
+08-05 17:25:21.636  4763  5531 I CAWARENESS_MsdpMotionParser: parseMsdpEvent count: 1 state: MsdpMotionTransportState{abilityType=still, eventType=enter, timestampNs=5303513061639, confidence=100, extra=}
+08-05 17:25:21.645  2554  5280 I OPCollectLog: ARFromAwarenessImpl:motionType: 4 eventType: 1 timeStamp: 5303513061639
+08-05 17:25:22.975  2602  2728 E TrustAuthCommon: onError: error is not caused by service timeout
+08-05 17:25:31.633  3309  3309 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:25:31.627  3309  3309 W com.rntsyb: type=1400 audit(0.0:4532): avc: denied { read } for pid=3309 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=11793 scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+08-05 17:25:31.695   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:25:31.695   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:25:31.711  2693  3375 I HwLauncher: GestureUtil MOTION_NOTIFICATION app_start_animation sendBroadcast extra= duration: 400 category: app_start_animation timestamp: 1628155531703
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: Process: com.rntsyb, PID: 3309
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:25:31.722  3309  3309 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:25:31.774   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:25:31.774   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:25:31.775  1655  3222 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:31.780  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:31.784  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:31.799  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:31.799  1655  1715 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+08-05 17:25:32.227  1655  1714 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{6a4f087 u0 com.rntsyb/.MainActivity t-1 f}
+08-05 17:25:32.554  3393  3393 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:25:32.547  3393  3393 W com.rntsyb: type=1400 audit(0.0:4535): avc: denied { read } for pid=3393 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=11793 scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+08-05 17:25:32.628  1655  2220 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:32.629  1655  2220 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+08-05 17:25:32.629   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:25:32.629   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:25:32.645  2693  3349 I HwLauncher: GestureUtil MOTION_NOTIFICATION app_start_animation sendBroadcast extra= duration: 400 category: app_start_animation timestamp: 1628155532635
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: Process: com.rntsyb, PID: 3393
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:25:32.657  3393  3393 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:25:32.662  1655  1708 W ActivityManager: Process com.rntsyb has crashed too many times: killing!
+08-05 17:25:32.674   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:25:32.674   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:25:32.680  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:32.691  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:32.700  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:32.700  1655  1715 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+08-05 17:25:33.666  3443  3443 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:25:33.659  3443  3443 W com.rntsyb: type=1400 audit(0.0:4536): avc: denied { read } for pid=3443 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=11793 scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+08-05 17:25:33.745   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:25:33.745   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:25:33.745  1655  3222 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:33.745  1655  3222 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+08-05 17:25:33.778  2693  3344 I HwLauncher: GestureUtil MOTION_NOTIFICATION app_start_animation sendBroadcast extra= duration: 400 category: app_start_animation timestamp: 1628155533754
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: Process: com.rntsyb, PID: 3443
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:25:33.780  3443  3443 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:25:33.826   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:25:33.826   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:25:33.828  1655  1708 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:33.832  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:33.841  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:33.858  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:25:33.858  1655  1715 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+08-05 17:25:34.282  1655  1714 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{6500905 u0 com.rntsyb/.MainActivity t-1 f}
+08-05 17:25:34.760  2602  3245 D DeviceMonitorPowerKit: interval is 699980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:25:47.984  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:25:48.822  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:25:52.536  2641  3271 I ASSET_PUBLICKEY_SERVICE: UpdateData: time duration: 1001
+08-05 17:25:52.986  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:25:53.825  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:25:54.760  2602  3245 D DeviceMonitorPowerKit: interval is 719980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:25:57.989  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:25:58.829  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:26:01.140  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:26:02.992  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:03.834  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:26:06.818  3507  3507 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+08-05 17:26:06.811  3507  3507 W com.rntsyb: type=1400 audit(0.0:4543): avc: denied { read } for pid=3507 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=11793 scontext=u:r:untrusted_app:s0:c81,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+08-05 17:26:06.853  1655  3072 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:26:06.853  1655  3072 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+08-05 17:26:06.854   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:26:06.854   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:26:06.880  2693  3611 I HwLauncher: GestureUtil MOTION_NOTIFICATION app_start_animation sendBroadcast extra= duration: 400 category: app_start_animation timestamp: 1628155566860
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: FATAL EXCEPTION: main
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: Process: com.rntsyb, PID: 3507
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: java.lang.AssertionError: expo-updates is enabled, but no valid URL is configured in AndroidManifest.xml. If you are making a release build for the first time, make sure you have run `expo publish` at least once.
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.start(UpdatesController.java:283)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at expo.modules.updates.UpdatesController.initialize(UpdatesController.java:102)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at com.rntsyb.MainApplication.onCreate(MainApplication.java:89)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1202)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7588)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at android.app.ActivityThread.access$2600(ActivityThread.java:260)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2435)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+08-05 17:26:06.886  3507  3507 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+08-05 17:26:06.889  1655  3222 W ActivityManager: Process com.rntsyb has crashed too many times: killing!
+08-05 17:26:06.901   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:26:06.901   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:26:06.912  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:26:06.925  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:26:06.942  1655  1715 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+08-05 17:26:06.942  1655  1715 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+08-05 17:26:07.992  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:08.837  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:26:12.995  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:13.841  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:26:14.760  2602  3245 D DeviceMonitorPowerKit: interval is 739980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:26:15.047  1655  2306 I HwWifiProServiceProxy: pair = Pair{true 8}, Bundle = Bundle[{time=8, arpResult=true}]
+08-05 17:26:17.997  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:18.844  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:26:22.999  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:23.849  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:26:25.650  1655  1655 I JobServiceContext: APP response begin time, startJob due to preemption. jobid:-200
+08-05 17:26:25.652  1655  1655 I JobServiceContext: APP response begin time, startJob due to preemption. jobid:102737
+08-05 17:26:25.659  1655  1708 I JobScheduler: APP response end time, Completed JobStatus{64c9fbc #u0a110/-200 com.android.gallery3d/com.huawei.gallery.phonestatus.PowerConnectedService u=0 s=10110 TIME=-59s402ms:+4m0s598ms CHARGING PERIODIC PERSISTED READY}, reschedule=false
+08-05 17:26:25.668  1655  1708 I JobServiceContext: APP response end time startJob.
+08-05 17:26:25.669  1655  1655 I JobServiceContext: APP response end time startJob.
+08-05 17:26:25.680  1655  1655 I JobScheduler: APP response end time, Completed JobStatus{64c9e9a #1000/102737 com.ss.android.ugc.aweme.AccountSyncProvider/com.ss.android.ugc.aweme:android u=0 s=10144 TIME=-59s421ms:+4m0s579ms NET PERIODIC PERSISTED READY}, reschedule=false
+08-05 17:26:28.002  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:28.856  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:26:31.860  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:26:33.004  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:33.860  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:34.760  2602  3245 D DeviceMonitorPowerKit: interval is 759980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:26:35.865  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:37.869  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:38.005  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:39.872  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:41.875  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:43.006  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:43.881  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:45.886  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:45.909  4409  4644 I PushLog110106300: [ReceiverDispatcher-195]com.huawei.push.alarm.HEARTBEAT alarm trigger, expectTriggerTime:1628155605860, current trigger time:1628155605909
+08-05 17:26:45.912  4409  4644 I PushLog110106300: [ReceiverDispatcher-195]next Heartbeat timeout for push server is: 5 min , curHeartBeatInterval: 300000
+08-05 17:26:47.889  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:48.008  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:49.892  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:51.897  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:53.009  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:53.900  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:54.760  2602  3245 D DeviceMonitorPowerKit: interval is 779980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:26:55.045 10827 10942 I mars::stn: [longlink_connect_monitor.cc, OnHeartbeatAlarmReceived, 474]:longlink_progress on_heartbeat_alarm, time: 5398442, is_noop_timeout:false
+08-05 17:26:55.071  1655  3221 W ProcBatteryStats: timer is running , not start, name: com.tencent.mm, uid: 10165, tag: PlatformComm
+08-05 17:26:55.078  1655  3221 W ProcBatteryStats: timer is running , not start, name: com.tencent.mm, uid: 10165, tag: PlatformComm
+08-05 17:26:55.090 10827  2699 I mars::stn: [longlink_connect_monitor.cc, OnHeartbeatAlarmSet, 470]:longlink_progress on_heartbeat_set, time: 5398486, time interval:210000
+08-05 17:26:55.102 10827  2699 I mars::stn: [longlink_connect_monitor.cc, OnHeartbeatAlarmSet, 470]:longlink_progress on_heartbeat_set, time: 5398499, time interval:210000
+08-05 17:26:55.726  2830  3198 E SQLiteDatabase: Error inserting UNIQUE constraint failed: SmartControlRecordTable.packageName, SmartControlRecordTable.callerPackageName, SmartControlRecordTable.startupResult, SmartControlRecordTable.timeOfDay (Sqlite code 2067 SQLITE_CONSTRAINT_UNIQUE), (OS error - 2:No such file or directory)
+08-05 17:26:55.905  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:56.077  1655  3221 W ProcBatteryStats: timer is not running , not stop, name: com.tencent.mm, uid: 10165, tag: PlatformComm
+08-05 17:26:56.084  1655  3221 W ProcBatteryStats: timer is not running , not stop, name: com.tencent.mm, uid: 10165, tag: PlatformComm
+08-05 17:26:57.909  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:26:58.010  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:26:59.047 14080  3653 I PushLogNC110106302: [ReceiverHandler-pool-thread-19-735]set large icon start time is:1628155619046,end time is:1628155619046(pushagent/:557)
+08-05 17:26:59.058 14080  3653 I PushLogNC110106302: [ReceiverHandler-pool-thread-19-735]setAutoClear time is: 0(pushagent/:262)
+08-05 17:26:59.069  2659  3264 I AppManager: app:com.UCMobile Notification update time:5402466
+08-05 17:26:59.085  2659  3264 I AppManager: app:com.UCMobile Notification update time:5402482
+08-05 17:26:59.913  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:00.133  3664  3664 E         : storage_info: GetLifetimeConfigXML: xml file (null) not exists
+08-05 17:27:00.133  3664  3664 I         : storage_info: LifetimeEnabled: lifetime disabled
+08-05 17:27:01.917  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:02.579  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:27:03.012  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:03.921  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:05.924  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:07.929  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:08.014  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:08.941  2623  3732 I HicomNfTimerManager: AddTimer first success, m_expiredTime: 1628155688941, timer list size: 1
+08-05 17:27:08.942  2623  3732 I HicomNfTimerManager: time fd:183 set success
+08-05 17:27:08.971  2623  3732 I HicomNfTimerManager: RemoveTimer success, m_expiredTime: 1628155688941, timer list size: 0
+08-05 17:27:09.106  2602  2728 E TrustAuthCommon: onError: error is not caused by service timeout
+08-05 17:27:09.597   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:27:09.597   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:27:09.604   979   979 D pmomd   : dubai_send_data# new inquires arrived, timestamp=5413001
+08-05 17:27:09.932  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:10.590  2589  8069 E NcDftMisc: trigger wifi worktime event fail
+08-05 17:27:11.185  1049  2145 E dubaid  : [DubaiStorage.cpp] QueryEntries# Failed to query entries: SELECT SUM(cdrx_time_cnt) * 1000 / 32768 FROM raw_backward_modem_lte_phy WHERE start_time >= 1628153829582 AND end_time <= 1628155629582
+08-05 17:27:11.185  1049  2145 E dubaid  : [DubaiStorage.cpp] QueryEntries# Failed to query entries: SELECT SUM(connDurationSlice + connSaDurationSlice) * 1000 / 32768 FROM raw_backward_modem_nr_phy WHERE start_time >= 1628153829582 AND end_time <= 1628155629582
+08-05 17:27:11.380  1655  2297 I WifiProStatisticsManager: checkIfNeedUpload time left(mins):817
+08-05 17:27:11.936  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:13.016  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:13.939  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:14.259  2589  2878 I BT_CHR: BtStoreManager: write file:BtChrStatKpiEvent.bin bytes:420 time:6ms
+08-05 17:27:14.761  2602  3245 D DeviceMonitorPowerKit: interval is 799981, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:27:15.130  1655  2306 I HwWifiProServiceProxy: pair = Pair{true 15}, Bundle = Bundle[{time=15, arpResult=true}]
+08-05 17:27:15.943  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:17.946  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:18.018  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:19.952  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:20.548  2602  3019 I MonitorStrategy: device check lost at heartbeat, bleBackGround false or not screenOne or need more time
+08-05 17:27:20.626  2602  3019 I MonitorStrategy: first time, do all Wifi discovery
+08-05 17:27:21.955  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:23.019  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:23.959  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:24.674  2602  3016 D DeviceMonitorPowerKit: interval is 809894, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:27:25.963  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:27.968  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:28.021  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:29.971  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:31.975  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:33.023  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:33.297  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:27:33.979  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:34.760  2602  3245 D DeviceMonitorPowerKit: interval is 819980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:27:35.984  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:37.987  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:38.024  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:39.024  2641  3271 I ASSET_PUBLICKEY_SERVICE: UpdateData: time duration: 715
+08-05 17:27:39.992  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:41.995  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:43.026  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:44.000  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:46.003  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:48.008  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:48.028  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:50.011  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:52.016  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:27:53.031  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:54.019  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:27:54.760  2602  3245 D DeviceMonitorPowerKit: interval is 839980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:27:58.034  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:27:59.022  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:28:03.036  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:04.026  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:04.056  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:28:06.029  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:08.033  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:08.039  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:10.036  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:12.042  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:13.041  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:14.045  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:14.760  2602  3245 D DeviceMonitorPowerKit: interval is 859980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:28:15.170  1655  2306 I HwWifiProServiceProxy: pair = Pair{true 15}, Bundle = Bundle[{time=15, arpResult=true}]
+08-05 17:28:16.049  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:18.042  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:18.052  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:20.057  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:22.061  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:23.045  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:24.065  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:26.069  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:28.047  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:28.074  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:30.078  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:32.084  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:33.050  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:34.087  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:34.738  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:28:34.760  2602  3245 D DeviceMonitorPowerKit: interval is 879980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:28:36.091  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:38.052  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:38.095  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:40.100  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:42.103  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:43.054  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:44.108  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:46.112  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:48.056  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:48.117  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:50.121  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:52.125  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:53.058  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:54.128  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:54.760  2602  3245 D DeviceMonitorPowerKit: interval is 899980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:28:56.133  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:28:58.061  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:28:58.137  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:00.142  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:02.146  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:03.062  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:04.150  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:05.255  1035  1657 I maple   :  NaiveRC GC for force: sync: collected objects: 0(0B), 90.7536% utilization (3MiB/3MiB), max pause: 253us, total pause: 344us, total GC time: 37ms
+08-05 17:29:05.473  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:29:06.154  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:08.064  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:08.158  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:29:10.017  1073  1073 I SensorHub: in Batch, handle = 0, flags = 0, periodNs = 50000000, timeout = 0
+08-05 17:29:10.021  1073  1073 I SensorHub: in Batch, handle = 5, flags = 0, periodNs = 50000000, timeout = 0
+08-05 17:29:10.025  1073  1073 I SensorHub: in Batch, handle = 1, flags = 0, periodNs = 50000000, timeout = 0
+08-05 17:29:13.066  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:13.165  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:29:14.760  2602  3245 D DeviceMonitorPowerKit: interval is 919980, ElapsedRealtime is 4618177, isNeedRepeat: false
+08-05 17:29:14.761  2659  6369 I PowerKit_Impl: apply pkg: com.huawei.nearby resource:65535 timeout:1800000 reason:nearby is supporting connectivity
+08-05 17:29:14.773  2659  6369 I PowerKit_Impl: apply pkg: com.huawei.iconnect resource:65535 timeout:1800000 reason:nearby is supporting connectivity
+08-05 17:29:14.778  2659  6369 I PowerKit_Impl: apply pkg: com.huawei.synergy resource:65535 timeout:1800000 reason:nearby is supporting connectivity
+08-05 17:29:15.256  1655  2306 I HwWifiProServiceProxy: pair = Pair{true 18}, Bundle = Bundle[{time=18, arpResult=true}]
+08-05 17:29:16.468  1073  1073 I SensorHub: in Batch, handle = 0, flags = 0, periodNs = 66667000, timeout = 0
+08-05 17:29:16.476  2659  3264 I SensorState: sensor stop, total history time:1922804
+08-05 17:29:17.618  1655  1668 I maple   : system_server NaiveRC GC for force: sync: collected objects: 3940(230KiB), 86.4737% utilization (58MiB/68MiB), max pause: 1ms, total pause: 2ms, total GC time: 130ms
+08-05 17:29:18.067  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:18.168  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:20.173  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:22.176  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:23.068  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:24.180  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:26.183  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:28.071  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:28.186  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:30.189  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:32.193  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:33.074  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:34.196  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:34.760  2602  3245 D DeviceMonitorPowerKit: interval is 19979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:29:36.200  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:36.213  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:29:38.076  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:38.203  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:29:43.078  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:43.207  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:29:46.061  4409  4644 I PushLog110106300: [ReceiverDispatcher-195]com.huawei.push.alarm.HEARTBEAT alarm trigger, expectTriggerTime:1628155786048, current trigger time:1628155786061
+08-05 17:29:46.076  4409  4644 I PushLog110106300: [ReceiverDispatcher-195]next Heartbeat timeout for push server is: 5 min , curHeartBeatInterval: 300000
+08-05 17:29:48.079  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:48.213  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:50.217  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:52.221  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:53.081  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:54.224  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:54.760  2602  3245 D DeviceMonitorPowerKit: interval is 39979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:29:56.229  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:58.083  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:29:58.232  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:29:59.580  2709  4486 I fwkit_HMSEventLog: [I/fwkit/fwkit_HMSEventLog 2709:232 HMSEventLogDatabaseManager.java:516] Query by hour time in day heartbeat table
+08-05 17:30:00.236  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:02.240  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:03.084  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:04.245  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:06.249  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:06.900  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:30:08.087  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:08.252  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:30:13.089  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:13.257  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:30:14.760  2602  3245 D DeviceMonitorPowerKit: interval is 59979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:30:15.338  1655  2306 I HwWifiProServiceProxy: pair = Pair{true 16}, Bundle = Bundle[{time=16, arpResult=true}]
+08-05 17:30:18.091  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:18.262  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:30:20.964  2830  3158 I SmartChgBase/db_archive: ArchivePrint,last segment: [batt_brand=sunwodaatl;ocv_cc=-29222;ocv_chargecycles=1505;ocv_level=0;ocv_sample_time=1628155820;ocv_soc=99243;ocv_soc_uah=3928037;ocv_temp=308;ocv_volt_uv=4358985;]
+08-05 17:30:20.966  2830  3158 I SmartChgBase/Data: tag OcvStat.Archive of provider value change to ArchiveFile=ocv_stat.db,ArchiveTable=ocv_info,batt_brand=sunwodaatl,ocv_cc=-29222,ocv_chargecycles=1505,ocv_level=0,ocv_sample_time=1628155820,ocv_soc=99243,ocv_soc_uah=3928037,ocv_temp=308,ocv_volt_uv=4358985
+08-05 17:30:20.972  2830  3158 I SmartChgBase/Event: to dispatch event:2021-08-05 17:30:20/OcvStat.Archive=ArchiveFile=ocv_stat.db,ArchiveTable=ocv_info,batt_brand=sunwodaatl,ocv_cc=-29222,ocv_chargecycles=1505,ocv_level=0,ocv_sample_time=1628155820,ocv_soc=99243,ocv_soc_uah=3928037,ocv_temp=308,ocv_volt_uv=4358985
+08-05 17:30:23.093  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:23.266  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:30:24.193  2830  3158 I SmartChgBase/ScmTimer: freeTimer timer id is 2 timer num is 4
+08-05 17:30:25.107 10827 10942 I mars::stn: [longlink_connect_monitor.cc, OnHeartbeatAlarmReceived, 474]:longlink_progress on_heartbeat_alarm, time: 5608504, is_noop_timeout:false
+08-05 17:30:25.126  1655  1708 W ProcBatteryStats: timer is running , not start, name: com.tencent.mm, uid: 10165, tag: PlatformComm
+08-05 17:30:25.131  1655  1708 W ProcBatteryStats: timer is running , not start, name: com.tencent.mm, uid: 10165, tag: PlatformComm
+08-05 17:30:25.142 10827  2699 I mars::stn: [longlink_connect_monitor.cc, OnHeartbeatAlarmSet, 470]:longlink_progress on_heartbeat_set, time: 5608539, time interval:210000
+08-05 17:30:25.151 10827  2699 I mars::stn: [longlink_connect_monitor.cc, OnHeartbeatAlarmSet, 470]:longlink_progress on_heartbeat_set, time: 5608548, time interval:210000
+08-05 17:30:26.129  1655  1708 W ProcBatteryStats: timer is not running , not stop, name: com.tencent.mm, uid: 10165, tag: PlatformComm
+08-05 17:30:28.094  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:28.272  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:26.137  1655  1708 W ProcBatteryStats: timer is not running , not stop, name: com.tencent.mm, uid: 10165, tag: PlatformComm
+08-05 17:30:30.274  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:32.277  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:33.096  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:34.281  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:34.760  2602  3245 D DeviceMonitorPowerKit: interval is 79979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:30:36.285  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:37.620  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:30:38.098  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:38.289  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:40.294  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:42.296  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:43.101  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:44.301  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:46.305  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:48.103  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:48.310  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:50.313  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:52.317  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:30:53.105  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:54.760  2602  3245 D DeviceMonitorPowerKit: interval is 99979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:30:56.367  1655  1655 I JobServiceContext: APP response begin time, startJob due to preemption. jobid:100634
+08-05 17:30:56.389  1655  1655 I JobServiceContext: APP response end time startJob.
+08-05 17:30:56.404  1655  1655 I JobScheduler: APP response end time, Completed JobStatus{64c9e7d #1000/100634 com.tencent.mtt.account.sync/com.tencent.mtt.account.sync:android u=0 s=10320 TIME=-30s144ms:+4m29s856ms NET PERIODIC PERSISTED READY}, reschedule=false
+08-05 17:30:56.496   911  2185 I aptouch_daemon: get_cmd, power_time
+08-05 17:30:56.497   911  2185 I aptouch_daemon: excute_cmd_end, cmd: power_time.
+08-05 17:30:56.498   979   979 D pmomd   : dubai_send_data# new inquires arrived, timestamp=5639895
+08-05 17:30:57.324  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:30:57.492  2589  8069 E NcDftMisc: trigger wifi worktime event fail
+08-05 17:30:57.989  1049  1185 I dubaid  : [BalanceControl.cpp] RoundTimeout# id: 0, voting: 32768, timerId: 10, reason: 7, request: 1628155801000
+08-05 17:30:58.107  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:30:59.328  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:01.333  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:03.109  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:03.337  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:05.341  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:07.346  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:08.111  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:08.348  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:31:09.349  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:11.354  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:13.112  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:13.357  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:14.760  2602  3245 D DeviceMonitorPowerKit: interval is 119979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:31:15.361  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:15.413  1655  2306 I HwWifiProServiceProxy: pair = Pair{true 7}, Bundle = Bundle[{time=7, arpResult=true}]
+08-05 17:31:17.365  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:31:18.114  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:19.477  2623  3732 I HicomNfTimerManager: AddTimer first success, m_expiredTime: 1628155939477, timer list size: 1
+08-05 17:31:19.477  2623  3732 I HicomNfTimerManager: time fd:183 set success
+08-05 17:31:19.512  2623  3732 I HicomNfTimerManager: RemoveTimer success, m_expiredTime: 1628155939477, timer list size: 0
+08-05 17:31:19.908  2602  2728 E TrustAuthCommon: onError: error is not caused by service timeout
+08-05 17:31:20.246  2830  3166 I SmartChgBase/Config: strategy configure aging time out
+08-05 17:31:22.369  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:23.117  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:24.375  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:26.378  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:26.448  2830  3595 E SQLiteDatabase: Error inserting UNIQUE constraint failed: SmartControlRecordTable.packageName, SmartControlRecordTable.callerPackageName, SmartControlRecordTable.startupResult, SmartControlRecordTable.timeOfDay (Sqlite code 2067 SQLITE_CONSTRAINT_UNIQUE), (OS error - 2:No such file or directory)
+08-05 17:31:28.119  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:28.381  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:30.384  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:32.389  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:33.120  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:34.392  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:34.760  2602  3245 D DeviceMonitorPowerKit: interval is 139979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:31:36.398  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:38.122  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:38.401  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:39.064  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:31:40.405  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:42.409  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:43.124  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:44.414  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:31:48.126  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:49.421  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:49.557  2641 23161 I ASSET_PUBLICKEY_SERVICE: UpdateData: time duration: 358
+08-05 17:31:51.426  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:53.129  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:53.431  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:54.760  2602  3245 D DeviceMonitorPowerKit: interval is 159979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:31:55.436  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:57.439  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:31:58.131  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:31:59.444  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:01.449  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:03.133  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:03.454  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:03.879  1655  1655 I JobScheduler: About to run job on context 0, job: JobStatus{67a730e #u0a67/50001 com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20 u=0 s=10067 TIME=-9ms:-9ms PERSISTED READY}
+08-05 17:32:03.911  1655  1655 I JobServiceContext: APP response begin time, startJob due to preemption. jobid:50001
+08-05 17:32:04.062  2709  4624 I fwkit_kams_stubmanager: [I/fwkit/fwkit_kams_stubmanager 2709:238 StubManagerService.java:280] Notify kit ComponentName:{com.huawei.hms.ads/com.huawei.openalliance.ad.ppskit.dc.DcJobService} ,Status: {1} ,stub ComponentName:{com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20}
+08-05 17:32:04.063  2709  4624 I fwkit_kams_pr: [I/fwkit/fwkit_kams_pr 2709:238 BaseProcessRecord.java:901] NOTIFY ONSTART SUCCESS:ComponentInfo{com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20}ComponentInfo{com.huawei.hms.ads/com.huawei.openalliance.ad.ppskit.dc.DcJobService}
+08-05 17:32:04.077  1655  2220 I JobServiceContext: APP response end time startJob.
+08-05 17:32:04.161 29588  3851 I HiAdKit.DC.DcUtil:  last AUD time: 1628151915269
+08-05 17:32:04.809  1073  1132 I SensorHub: in Batch, handle = 5, flags = 0, periodNs = 200000000, timeout = 0
+08-05 17:32:04.816  1073  1073 I SensorHub: in Batch, handle = 1, flags = 0, periodNs = 200000000, timeout = 0
+08-05 17:32:04.818 29588  3851 I HiAdKit.DC.ADCP:  addAppDataCollectionToCache - cache valide time: 7200 expireTime: 1627723924818
+08-05 17:32:04.818  1073  1073 I SensorHub: in Batch, handle = 9, flags = 0, periodNs = 200000000, timeout = 0
+08-05 17:32:04.834 29588  3851 I HiAdKit.DC.DcUtil:  last AIL time: 1628122539553
+08-05 17:32:05.020  2659  3264 I SensorState: sensor stop, total history time:1481
+08-05 17:32:05.458  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:05.523  2709  1916 I fwkit_kams_pr: [I/fwkit/fwkit_kams_pr 2709:923 BaseProcessRecord.java:1303] updateStatusWhenNoValidSession: ComponentInfo{com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitCoreNEStubService18} not active or not in record.
+08-05 17:32:05.523  2709  1916 I fwkit_kams_pr: [I/fwkit/fwkit_kams_pr 2709:923 BaseProcessRecord.java:1303] updateStatusWhenNoValidSession: ComponentInfo{com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitCoreNEStubService19} not active or not in record.
+08-05 17:32:05.524  2709  1916 I fwkit_kams_pr: [I/fwkit/fwkit_kams_pr 2709:923 BaseProcessRecord.java:1303] updateStatusWhenNoValidSession: ComponentInfo{com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitCoreNEStubService16} not active or not in record.
+08-05 17:32:05.525  1655  3242 I JobScheduler: CANCEL: 67a730e #u0a67/50001 com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20, reason:job rescheduled by app
+08-05 17:32:05.526  1655  3242 I JobServiceContext: APP response begin time, Stop job, jobId:50001
+08-05 17:32:05.526  1655  3242 I JobScheduler.Time: Add job to TimeTracking: 6487f82 #u0a67/50001 com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20, delayTime:10244065, deadlineTime:10244065
+08-05 17:32:05.530  1655  3242 I JobScheduler: APP response end time, Completed JobStatus{67a730e #u0a67/50001 com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20 u=0 s=10067 TIME=-1s660ms:-1s660ms PERSISTED READY}, reschedule=false
+08-05 17:32:05.541  2709  1916 I fwkit_kams_stubmanager: [I/fwkit/fwkit_kams_stubmanager 2709:923 StubManagerService.java:280] Notify kit ComponentName:{com.huawei.hms.ads/com.huawei.openalliance.ad.ppskit.dc.DcJobService} ,Status: {2} ,stub ComponentName:{com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20}
+08-05 17:32:05.542  2709  1916 I fwkit_kams_jobService: [I/fwkit/fwkit_kams_jobService 2709:923 JobServiceManager.java:234] active jobService :com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20
+08-05 17:32:05.542  2709  1916 I fwkit_kams_pr: [I/fwkit/fwkit_kams_pr 2709:923 BaseProcessRecord.java:1086] NOTIFY ONSTOP SUCCESS:{com.huawei.hwid/com.huawei.hms.runtimekit.stub.HMSKitC1NEStubJobService20}{com.huawei.hms.ads/com.huawei.openalliance.ad.ppskit.dc.DcJobService}
+08-05 17:32:07.463  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:08.135  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:09.468  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:09.784  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:32:11.472  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:13.137  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:13.476  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:14.760  2602  3245 D DeviceMonitorPowerKit: interval is 179979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:32:15.480  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:15.495  1655  2306 I HwWifiProServiceProxy: pair = Pair{true 15}, Bundle = Bundle[{time=15, arpResult=true}]
+08-05 17:32:17.486  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:18.139  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:19.489  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:20.555  2602  3019 I MonitorStrategy: device check lost at heartbeat, bleBackGround false or not screenOne or need more time
+08-05 17:32:20.570  2602  3019 I MonitorStrategy: first time, do all Wifi discovery
+08-05 17:32:21.493  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:23.141  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:23.497  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:25.501  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:27.506  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:32:28.144  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:32.509  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:32:33.146  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:34.760  2602  3245 D DeviceMonitorPowerKit: interval is 199979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:32:37.516  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:32:38.148  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:40.501  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:32:42.520  1655  2195 I TrafficMonitor: gettimer:interval=5000
+08-05 17:32:43.150  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:46.184  4409  4644 I PushLog110106300: [ReceiverDispatcher-195]com.huawei.push.alarm.HEARTBEAT alarm trigger, expectTriggerTime:1628155966170, current trigger time:1628155966184
+08-05 17:32:46.199  4409  4644 I PushLog110106300: [ReceiverDispatcher-195]next Heartbeat timeout for push server is: 5 min , curHeartBeatInterval: 300000
+08-05 17:32:47.526  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:48.152  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:49.530  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:51.535  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:53.154  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:53.539  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:54.760  2602  3245 D DeviceMonitorPowerKit: interval is 219979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:32:55.544  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:57.549  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:32:58.157  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:32:59.553  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:01.558  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:03.159  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:33:03.563  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:05.364  1035  1657 I maple   :  NaiveRC GC for force: sync: collected objects: 0(0B), 90.7536% utilization (3MiB/3MiB), max pause: 248us, total pause: 344us, total GC time: 34ms
+08-05 17:33:05.566  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:07.569  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:08.162  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:33:09.573  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:11.224  1655  2107 D HwBatteryService: setHwChargeTimeRemaining, time = -1 String time: 0
+08-05 17:33:11.577  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:13.164  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
+08-05 17:33:13.583  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:14.760  2602  3245 D DeviceMonitorPowerKit: interval is 239979, ElapsedRealtime is 5538178, isNeedRepeat: false
+08-05 17:33:15.576  1655  2306 I HwWifiProServiceProxy: pair = Pair{true 15}, Bundle = Bundle[{time=15, arpResult=true}]
+08-05 17:33:15.587  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:17.590  1655  2195 I TrafficMonitor: gettimer:interval=2000
+08-05 17:33:17.847  1655  1668 I maple   : system_server NaiveRC GC for force: sync: collected objects: 2328(2MiB), 86.3635% utilization (58MiB/68MiB), max pause: 1ms, total pause: 2ms, total GC time: 142ms
+08-05 17:33:18.166  1655  1655 I NetLinkManager: getPriorityAppState, slaveIccid is null, start timer
