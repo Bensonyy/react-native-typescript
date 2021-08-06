@@ -1,13 +1,12 @@
 import { ROOT_CONST } from '../constants';
 
-type payload = {
+type Payload = {
   isLoading?: boolean;
   isLogin?: boolean;
   token?: string;
-  [p: string]: any;
 };
 
-export default (prevState: payload, { type, payload }: { type: string; payload?: payload }) => {
+export default (prevState: Payload, { type, payload }: { type: string; payload?: Payload }) => {
   const { token, ...rest } = payload;
 
   switch (type) {

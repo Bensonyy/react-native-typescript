@@ -1,47 +1,46 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
-import { View, StyleSheet, ActivityIndicator, Text } from 'react-native';
-import { primary } from '../../config/theme';
+import { StyleSheet, ActivityIndicator } from 'react-native';
+import { View, Text } from '../Theme';
+import { Colors } from '../../constants';
+import { useColorScheme } from '../../hooks';
 
-type Props = {};
+type Props = {
+  type: 'absolute' | 'relative';
+  color: string;
+  backgroundColor: string;
+  title: string;
+  loadingContainerStyle: object;
+};
 
-// const Loading = (props: Props) => {};
+export const Loading: React.FC<Partial<Props>> = (props) => {
+  const themeName = useColorScheme();
+  const {
+    type = 'absolute',
+    title,
+    color = Colors[themeName].tint,
+    backgroundColor = 'transparent',
+    loadingContainerStyle,
+  } = props;
 
-export default class Loading extends React.PureComponent {
-  static propTypes = {
-    type: PropTypes.oneOf(['float', 'absolute']).isRequired,
-    color: PropTypes.string,
-    backgroundColor: PropTypes.string,
-  };
-
-  static defaultProps = {
-    type: 'float',
-    backgroundColor: 'transparent',
-  };
-
-  render() {
-    const { type, title, color = primary, backgroundColor, loadingContainerStyle } = this.props;
-
-    return (
-      <View
-        style={[
-          type === 'float' ? styles.root : styles.absolute,
-          { backgroundColor },
-          loadingContainerStyle,
-        ]}>
-        <ActivityIndicator size="large" color={color} />
-        {title ? (
-          <View style={styles.titleBox}>
-            <Text style={styles.title}>{title}</Text>
-          </View>
-        ) : null}
-      </View>
-    );
-  }
-}
+  return (
+    <View
+      style={[
+        type === 'absolute' ? styles.absolute : styles.relative,
+        { backgroundColor },
+        loadingContainerStyle,
+      ]}>
+      <ActivityIndicator size="large" color={color} />
+      {title ? (
+        <View style={styles.titleBox}>
+          <Text style={styles.title}>{title}</Text>
+        </View>
+      ) : null}
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
-  root: {
+  relative: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',

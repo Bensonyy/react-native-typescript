@@ -1,6 +1,6 @@
 import { DarkTheme, DefaultTheme, NavigationContainer } from '@react-navigation/native';
 import * as React from 'react';
-import { Text } from '../components';
+import { Loading } from '../components';
 
 import StackNavs from './StackNavs';
 import LinkingConfig from './LinkingConfig';
@@ -8,7 +8,7 @@ import LinkingConfig from './LinkingConfig';
 function Navigation({ themeName }: { themeName: string }) {
   return (
     <NavigationContainer
-      fallback={<Text>Loading…</Text>}
+      fallback={<Loading />}
       linking={LinkingConfig}
       theme={themeName === 'dark' ? DarkTheme : DefaultTheme}>
       <StackNavs themeName={themeName} />
