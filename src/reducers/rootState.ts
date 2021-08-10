@@ -6,7 +6,7 @@ type Payload = {
   token?: string;
 };
 
-export default (prevState: Payload, { type, payload }: { type: string; payload?: Payload }) => {
+export default (prevState: Payload, { type, payload = {} }: { type: string; payload: Payload }) => {
   const { token, ...rest } = payload;
 
   switch (type) {
