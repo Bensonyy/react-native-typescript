@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { Icon } from 'react-native-elements';
-import Page1 from '../screens/page1';
+import Home from '../screens/home';
 import My from '../screens/my';
 import Login from '../screens/auth/Login';
+
+import HeaderSearchBar from '../screens/demo/HeaderSearchBar';
 
 const getTabBarIcon =
   ({ type, name }: { type: string; name: string }) =>
@@ -12,8 +14,8 @@ const getTabBarIcon =
 
 export const BottomTabNavsConfig = [
   {
-    name: 'Page1',
-    component: Page1,
+    name: 'Home',
+    component: Home,
     options: {
       tabBarLabel: '菜单',
       tabBarIcon: getTabBarIcon({
@@ -38,6 +40,14 @@ export const BottomTabNavsConfig = [
 export const StackNavsConfig = [
   {
     name: 'Login',
+    component: Login,
+    options: {
+      title: '登录',
+    },
+  },
+
+  {
+    name: '头部自定义搜索',
     component: Login,
     options: {
       title: '登录',

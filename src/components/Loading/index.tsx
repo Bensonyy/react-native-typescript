@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { StyleSheet, ActivityIndicator } from 'react-native';
-import { View, Text } from '../Theme';
+import { StyleSheet, View, Text, ActivityIndicator, StyleProp, ViewStyle } from 'react-native';
 import { Colors } from '../../constants';
 import { useColorScheme } from '../../hooks';
 
@@ -9,15 +8,15 @@ type Props = {
   color: string;
   backgroundColor: string;
   title: string;
-  loadingContainerStyle: object;
+  loadingContainerStyle: StyleProp<ViewStyle>;
 };
 
-export const Loading: React.FC<Partial<Props>> = (props) => {
+export const Loading = (props: Partial<Props>) => {
   const themeName = useColorScheme();
   const {
     type = 'absolute',
     title,
-    color = Colors[themeName].tint,
+    color = Colors[themeName].primary,
     backgroundColor = 'transparent',
     loadingContainerStyle,
   } = props;

@@ -3,23 +3,17 @@
  * https://reactnavigation.org/docs/configuring-links
  */
 import * as Linking from 'expo-linking';
-
+import { config } from '../config';
 export default {
-  prefixes: [Linking.createURL('/')],
+  prefixes: [config.schemeUrl],
   config: {
     screens: {
       Root: {
+        path: '/',
+        initialRouteName: '/',
         screens: {
-          Page1: {
-            screens: {
-              Page1: 'page1',
-            },
-          },
-          My: {
-            screens: {
-              TabTwoScreen: 'my',
-            },
-          },
+          Page1: '/page1',
+          My: '/my',
         },
       },
       NotFound: '*',

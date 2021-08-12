@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { StyleSheet } from 'react-native';
-import { Text, View } from '../../components';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function My() {
   return (
