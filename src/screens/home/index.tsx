@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <Content>
       <View>
-        <Text style={{ fontSize: sizes.fontSize20 }}>架构中的包含功能模块演示 demo</Text>
+        <Text style={{ fontSize: sizes.fontSize20 }}>架构中包含功能模块演示 demo</Text>
       </View>
       <View style={styles.container}>
         <Text style={styles.title}>首页</Text>

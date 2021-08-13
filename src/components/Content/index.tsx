@@ -18,6 +18,10 @@ type Props = {
   headerHeight: number; // 滚动时切换头组件中间内容时才需要
 };
 
+const HeaderCenterComponent = ({ colors, sizes, title }) => (
+  <Text style={{ color: colors.text, fontSize: sizes.fontSize16 }}>{title}</Text>
+);
+
 export const Content: React.FC = (props: Partial<Props>) => {
   const { dark } = useTheme();
   const { colors, sizes } = useMyTheme(dark);
@@ -39,10 +43,6 @@ export const Content: React.FC = (props: Partial<Props>) => {
     ...rest
   } = props;
 
-  const headerCenterComponent = (
-    <Text style={{ color: colors.text, fontSize: sizes.fontSize16 }}>{title}</Text>
-  );
-
   const onScroll = React.useCallback(
     (e) => {
       if (headerHeight <= 0) {
@@ -59,7 +59,9 @@ export const Content: React.FC = (props: Partial<Props>) => {
     <SafeAreaView style={[styles.container, containerStyle]}>
       {isShowHeader ? (
         <Header
-          centerComponent={opacity ? headerCenterComponent : headerCenter()}
+          centerComponent={
+            opacity ? HeaderCenterComponent({ colors, sizes, title }) : headerCenter()
+          }
           isShowLeftBtn={isShowLeftBtn}
         />
       ) : null}
