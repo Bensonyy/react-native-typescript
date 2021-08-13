@@ -43,7 +43,7 @@
 ```
 import * as React from 'react';
 import { View, Text } from 'react-native';
-import { Text, View, Content } from '../../components';
+import { Content } from '../../components';
 
 export default function Demo() {
   return (
