@@ -13,8 +13,8 @@
 # App 打包以安卓平台为例
 
 - yarn android 本地开发
-- android-test 内网测试包
-- android-prod 外网正式包
+- yarn android-test 内网测试包
+- yarn android-prod 外网正式包
 
 ### 技术选型
 
