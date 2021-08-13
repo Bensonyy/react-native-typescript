@@ -111,12 +111,12 @@
 - 全局安装 expo-cli: npm install -g expo-cli
 - 项目根目录执行 yarn web, 会自动打开浏览器 web 页出现二维码，手机需安装 Expo App 扫描二维码进行开发调试，代码改动保存后会实时更新视图
 
-### React-Native-cli 模式
+### React-Native-Cli 模式
 
 - USB 连接真机，执行 yarn android 命令，会自动安装开发模式下生成的 apk 到手机安装，代码改动手机端能实时呈现
 
-**注意需要先把本地基本环境安装好 如 Android SDK**
-[官方文档开发环境安装](https://reactnative.dev/docs/environment-setup)
+**注意需要先把本地基本环境安装好 如 Android SDK:**
+ [官方文档开发环境安装](https://reactnative.dev/docs/environment-setup)
 
 ### 如何增加一个业务页面
 
