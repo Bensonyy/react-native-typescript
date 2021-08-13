@@ -113,9 +113,9 @@
 
 ### React-Native-Cli 模式
 
-- USB 连接真机，执行 yarn android 命令，会自动安装开发模式下生成的 apk 到手机安装，代码改动手机端能实时呈现
+- USB 连接真机，执行 yarn android 命令，会自动安装开发模式下生成的 apk 到手机安装，代码改动手机中的 app 能实时更新视图
 
-**注意需要先把本地基本环境安装好 如 Android SDK:**
+- **注意需要先把本地基本环境安装好 如 Android SDK:**
  [官方文档开发环境安装](https://reactnative.dev/docs/environment-setup)
 
 ### 如何增加一个业务页面
