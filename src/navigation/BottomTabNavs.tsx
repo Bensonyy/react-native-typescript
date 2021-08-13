@@ -9,7 +9,7 @@ export default function BottomTabNavs({ themeName }: { themeName: string }) {
   const { colors } = useMyTheme(themeName === 'dark');
   return (
     <BottomTab.Navigator
-      initialRouteName="Page1"
+      initialRouteName="Home"
       tabBarOptions={{
         activeTintColor: colors.tabIconSelected,
         labelStyle: {

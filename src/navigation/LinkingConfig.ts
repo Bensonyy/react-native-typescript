@@ -12,7 +12,7 @@ export default {
         path: '/',
         initialRouteName: '/',
         screens: {
-          Page1: '/page1',
+          Home: '/home',
           My: '/my',
         },
       },
