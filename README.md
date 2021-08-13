@@ -20,8 +20,8 @@
 
 - react-native 跨平台 app 框架
 - react-navigation5 路由
-- react-native-elements UI 基础组件库
 - typescript
+- react-native-elements UI 基础组件库
 - expo 开发调试器
 
 # 开发调试（两种方式）：
