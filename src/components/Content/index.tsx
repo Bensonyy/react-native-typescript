@@ -14,7 +14,7 @@ import { useTheme } from '@react-navigation/native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Loading } from '../Loading';
 import { useMyTheme } from '../../hooks';
-import { Header } from '../../components';
+import { Header } from '../Header';
 
 type Props = {
   children: React.ReactElement;
