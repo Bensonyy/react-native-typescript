@@ -1,5 +1,15 @@
 import * as React from 'react';
-import { ScrollView, StyleSheet, Text, StyleProp, ViewStyle } from 'react-native';
+import {
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+  StyleProp,
+  ViewStyle,
+  ImageBackground,
+  ImageStyle,
+  ImageSourcePropType,
+} from 'react-native';
 import { useTheme } from '@react-navigation/native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Loading } from '../Loading';
@@ -15,7 +25,11 @@ type Props = {
   isShowHeader: boolean; // 是否显示头
   isShowLeftBtn: boolean; // 是否显示左上角返回按钮
   headerCenter(): React.ReactElement; // 自定义头中间信息
-  headerHeight: number; // 滚动时切换头组件中间内容时才需要
+  headerHeight: number; // 头部非规则设计背景图
+  fixedHeader: number; // 头部吸顶内容切换高度
+  type: undefined | 'fullScreen'; // 是否是全屏
+  bgImgPath: ImageSourcePropType; // 是否有背景图片
+  bgImgStyle: StyleProp<ImageStyle>; // 背景图样式控制
 };
 
 const HeaderCenterComponent = ({ colors, sizes, title }) => (
@@ -31,28 +45,32 @@ export const Content: React.FC = (props: Partial<Props>) => {
     children,
     isScroll = true,
     isLoading = false,
+    type = undefined,
     containerStyle = {
-      paddingHorizontal: sizes.contentSpace,
+      paddingHorizontal: type === 'fullScreen' ? 0 : sizes.contentSpace,
       backgroundColor: colors.background,
     },
     isShowHeader = false,
     isShowLeftBtn = true,
     title,
     headerCenter,
-    headerHeight = 0,
+    headerHeight = 54,
+    fixedHeader = 0,
+    bgImgPath = '',
+    bgImgStyle = undefined,
     ...rest
   } = props;
 
   const onScroll = React.useCallback(
     (e) => {
-      if (headerHeight <= 0) {
+      if (fixedHeader <= 0) {
         return;
       }
       let offsetY = e.nativeEvent.contentOffset.y;
-      let opacity = offsetY / headerHeight;
+      let opacity = offsetY / fixedHeader;
       setOpacity(opacity > 0.5);
     },
-    [headerHeight],
+    [fixedHeader],
   );
 
   return (
@@ -74,6 +92,11 @@ export const Content: React.FC = (props: Partial<Props>) => {
         onScroll={onScroll}
         contentContainerStyle={[styles.container]}
         {...rest}>
+        {bgImgPath && !isLoading ? (
+          <ImageBackground source={bgImgPath} style={styles.bgImage}>
+            <View style={[{ height: headerHeight }, bgImgStyle]}></View>
+          </ImageBackground>
+        ) : null}
         {isLoading ? <Loading /> : children}
       </ScrollView>
     </SafeAreaView>
@@ -85,5 +108,10 @@ export default Content;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  bgImage: {
+    resizeMode: 'cover',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
 });
