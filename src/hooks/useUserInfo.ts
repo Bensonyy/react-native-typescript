@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { getUserInfo } from '../api';
 
-export default function useUserInfo({ userId = '' } = {}) {
+export default function useUserInfo({ userId }: { userId: string }) {
   const [userInfo, setUserInfo] = React.useState({});
   React.useEffect(() => {
     const fetchData = async () => {
