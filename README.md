@@ -1,16 +1,27 @@
+# 对此项目的规划
+
+出于兴趣把自己做 android、ios 开发过程中经验积累沉淀一下，此工程架构会定期更新升级依赖到最新版本，并不断的积累 App 中常用组件和基础页面功能，也会不断优化代码组织架构
+
+# 此项目对以下情形会有帮助
+
+- [x] 想用前端技术做 app 开发却无从下手
+- [x] 想在项目中运用 typescript 进行开发的
+- [x] 想快速上手开发一款 app 的
+- [x] 遇到 RN 本地环境运行或打包后报错及打包后 app 闪退等
+- [x] 想了解学习 RN 跨三端开发的
+
 # App 打包以安卓平台为例
 
 - yarn android 本地开发
 - android-test 内网测试包
 - android-prod 外网正式包
 
-# react-native 脚手架
-
 ### 技术选型
 
 - react-native 跨平台 app 框架
 - react-navigation5 路由
 - react-native-elements UI 基础组件库
+- typescript
 - expo 开发调试器
 
 # 开发调试（两种方式）：
@@ -119,11 +130,7 @@ return (
 );
 ```
 
-# 代码风格统一
+# 最后
 
-- 代码格式化插件 Prettier - Code formatter
-
-# 优雅的提交代码 git-cz :
-
-<strong> 1. package.json 中已经集成了 git-cz 相关命令 </strong>
-<strong>git-cz 地址： https://www.npmjs.com/package/git-cz</strong>
+- 仅以此项目抛砖引玉，相互学习有所进步，如有问题请提 Issues, 我会第一时间解答
+- 如果你觉得这个项目对你有所帮助，欢迎 Star 支持鼓励，谢谢
