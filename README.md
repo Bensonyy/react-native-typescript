@@ -34,7 +34,7 @@
 │   │   └── index.ts
 │   ├── assets
 │   ├── components
-│   │   ├── Content
+│   │   ├── Layout
 │   │   ├── Context
 │   │   ├── Header
 │   │   ├── Loading
@@ -125,20 +125,19 @@
 ```
 import * as React from 'react';
 import { View, Text } from 'react-native';
-import { Content } from '../../components';
+import { Layout } from '../../components';
 
 export default function Demo() {
   return (
-    <Content>
+    <Layout>
       <View>
         <Text>新建业务页面</Text>
       </View>
-    </Content>
+    </Layout>
   );
 }
 
-// Content 是封装好的主内容区布局组件，这个组件的设计主要负责处理所有页面共用逻辑及平台兼容性问题，目前已集成 SafeAreaView, ScrollView 功能;
-// Content 的 props 支持传自定义属性
+// Layout 是封装好的主内容区布局组件，这个组件的设计主要负责处理所有页面共用逻辑及平台兼容性问题，目前已集成 SafeAreaView, ScrollView 功能;
 ```
 
 # 关于 webview 中 APP 与 H5 通信

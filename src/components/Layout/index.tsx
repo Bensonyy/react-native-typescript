@@ -36,7 +36,7 @@ const HeaderCenterComponent = ({ colors, sizes, title }) => (
   <Text style={{ color: colors.text, fontSize: sizes.fontSize16 }}>{title}</Text>
 );
 
-export const Content: React.FC = (props: Partial<Props>) => {
+export const Layout: React.FC = (props: Partial<Props>) => {
   const { dark } = useTheme();
   const { colors, sizes } = useMyTheme(dark);
   const [opacity, setOpacity] = React.useState<boolean>(true);
@@ -103,7 +103,7 @@ export const Content: React.FC = (props: Partial<Props>) => {
   );
 };
 
-export default Content;
+export default Layout;
 
 const styles = StyleSheet.create({
   container: {
