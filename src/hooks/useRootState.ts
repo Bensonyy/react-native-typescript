@@ -42,7 +42,7 @@ export default function useRootState() {
         setThemeName(themeName === 'dark' ? 'light' : 'dark');
       },
     }),
-    [],
+    [themeName],
   );
 
   return { themeName, ...userInfo, ...fns, dispatch };
